@@ -12,14 +12,14 @@ body {
 
 /*ESTILOS HEADER Y BARRA DE NAVEGACION*/
 .navbar {
-    background-image: url(./imagenes/backpruebon.png.png);
+    background-color: rgba(255, 136, 0, 0.575);
 }
 .navbar a {
     font-size: 20px;
     border: 1px solid black;
     border-radius: 15px;
     margin: 15px;
-    background-color: rgba(245, 222, 179, 0.493);
+    background-color: wheat;
 }
 .navbar a:hover {
     background-color: rgba(22, 22, 22, 0.877);
@@ -62,6 +62,15 @@ main {
     background-size: cover;
     margin: 30px 30px 0% 50px;
     box-shadow: 4px 4px 10px 4px black;
+}
+.div-main:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color:rgb(230, 224, 176) ;
+    transition: 2s;
 }
 .div-main h3 {
     padding: 20px;
@@ -121,30 +130,39 @@ footer h4 {
    text-align: center;
 
 }
+.titulo-insta a {
+    color: black;
+    font-size: 20px;
+}
 .redes a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(253, 253, 253);
     margin: 10px;
 }
 .redes a:hover {
-    border: solid 2px orange; border-radius: 50px;
-    background-color: black;
-    padding: 5px;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 2s;
 }
+
 .iconredes {
-    width: 50px;
-    height: auto;
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
 }
 .fb {
     display: inline-flex;
-    border: 2px solid blue; border-radius: 50px;
-    background-color: rgba(0, 0, 255, 0.712);
+    border: 2px solid rgb(76, 76, 206); border-radius: 10px;
+    background-color: rgba(54, 54, 121, 0.74);
 }
 .insta {
     display: inline-flex;
-    border: 2px solid fuchsia; border-radius: 50px;
-    background-color: rgba(255, 0, 255, 0.705);
+    border: 2px solid rgb(134, 61, 134); border-radius: 10px;
+    background-color: rgba(49, 36, 49, 0.705);
 }
 .instayfb {
     display: flex;
@@ -160,6 +178,14 @@ footer h4 {
     width: auto;
     margin: 30px;
     box-shadow: 4px 4px 10px 4px black;
+}
+.Articulo:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 2s;
 }
 .tituloArticulo {
     border: 1px double orange;
@@ -211,8 +237,8 @@ footer h4 {
 .form-input {
     border-radius: 20px;
     background-color: burlywood;
-    padding: 10px;
-    margin: 5px;
+    padding: 5px;
+    margin: 1px;
 }
 .form-container {
     display: flex;
@@ -277,6 +303,7 @@ footer h4 {
     -o-transform: scale(1.4) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
     -ms-transform: scale(1.4) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
     transform: scale(1.4) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+    transition: 2s;
 }
 /*PAGINA UBICACION - UBICACION - UBICACION - UBICACION*/
 .contenedorDonde {
