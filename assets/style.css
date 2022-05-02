@@ -1,0 +1,376 @@
+/*PAGINA ROMAN RIGALI - PROYECTO RAYMUNDO FULL SHOP*/
+
+/*ESTILOS CONTAINER Y BODY*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background-image: url(./imagenes/fondobody.png.jpg);
+}
+
+/*ESTILOS HEADER Y BARRA DE NAVEGACION*/
+.navbar {
+    background-color: rgb(0, 0, 0);
+    background-size: contain;
+}
+.navbar a {
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: orangered;
+    color: white;
+}
+.navbar a:hover {
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    background-size: contain;
+
+    transform: scale(1.1);
+    transition: 250ms;
+
+}
+.navbar-toggler {
+    background-color: orangered;
+}
+
+/*ESTILOS BANNER GRIS CON TITULO*/
+.banner {
+    width: 100%;
+    height: auto;
+    background-color: rgba(22, 22, 22, 0.877);
+    background-attachment: fixed;
+}
+.banner-h3 {
+    font-size: 6rem; color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Updock', cursive;
+    border-top: 3px  inset orangered;
+    border-bottom: 3px  inset orangered;
+    padding-left: 30px;
+    
+}
+/*ESTILOS DEL MAIN*/
+
+main {
+    grid-area: main;
+}
+.div-main {
+    border: 1px solid black;
+    display: inline-block;
+    height: auto;
+    width: 200px;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    background-size: cover;
+    margin: 30px 30px 0% 50px;
+    box-shadow: 4px 4px 10px 4px black;
+}
+.div-main:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 2s;
+}
+.div-main h3 {
+    padding: 20px;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Updock', cursive;
+    border-bottom: 2px double orangered;
+}
+.div-main p {
+    padding: 20px;
+    font-size: 1,5rem;
+    border: 0,1px solid black;
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+/*ESTILOS DEL FOOTER*/
+footer {
+    grid-area: footer;
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    background-size: contain;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-h3 {
+    padding: 15px;
+    font-size: 3rem;
+    color: white;
+    border: 1px solid black;border-radius: 10px;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    background-size: contain;
+}
+footer h4 {
+    font-size: 1rem;
+    color: white;
+    border-bottom: 2px double orangered;
+    margin: 10px;
+}
+/*ESTILO DE REDES SOCIALES Y POSICIONAMIENTO DE ICONOS*/
+.redes {
+    display: inline;
+
+
+}
+.titulo-insta { margin: 30px auto 30px auto;
+    border: 2px double orangered;
+    background-color: orangered;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Updock', cursive;
+    font-size: 30px;
+    font-weight: 800;
+    color: black;
+    padding: 5px auto 5px auto;
+   text-align: center;
+
+}
+.titulo-insta a {
+    color: black;
+    font-size: 20px;
+}
+.redes a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    margin: 10px;
+}
+.redes a:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.iconredes {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+.fb {
+    display: inline-flex;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    border: 2px solid orangered; border-radius: 10px;
+}
+.insta {
+    display: inline-flex;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    border: 2px solid orangered; border-radius: 10px;
+}
+.instayfb {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*PAGINA NOSOTROS - PAGINA NOSOTROS - PAGINA NOSOTROS*/
+.Articulo {
+    display: flex;
+    border: 1px double orangered;
+    height: auto;
+    width: auto;
+    margin: 30px;
+    box-shadow: 4px 4px 10px 4px black;
+}
+.Articulo:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 2s;
+}
+.tituloArticulo {
+    border: 1px double orangered;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    padding: 30px;
+    font-size: 4rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Updock', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parrafoArticulo {
+    padding: 30px;
+    background-color: rgb(95, 95, 95);
+    font-size: 20px;
+    color: white;
+}
+/*PAGINA CONTACTANOS - PAGINA CONTACTANOS - PAGINA CONTACTANOS*/
+.contactanos {
+    border: 2px double rgb(0, 0, 0);border-radius: 20px;
+    background-color: rgba(22, 22, 22, 0.877);
+    width: max-content;
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Updock', cursive;
+    box-shadow: 4px 4px 10px 4px black;
+
+}
+.formulario {
+    border: 2px double orangered; border-radius: 20px;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    width: max-content;
+    height: auto;
+    padding: 30px;
+    
+}
+.formulario label {
+    color: white;
+    border: 2px solid orangered; border-radius: 20px;
+    background-color: rgba(22, 22, 22, 0.877);
+    padding: 5px;
+    font-size: 20px;
+}
+.form-input {
+    background-color: burlywood;
+    padding: 5px;
+    margin: 1px;
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contactanos {
+    position: relative;
+    left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imagenform {
+    width: 400px;
+    height: auto;
+}
+.btn {
+    border: 2px double black; border-radius: 20px;
+    background-color: black;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+
+}
+.btn:hover {
+    box-shadow: 1px 1px 5px 1px orangered;
+}
+/*PAGINA PRODUCTOS - PRODUCTOS - PRODUCTOS - PRODUCTOS - PRODUCTOS*/
+.titulo-productos {
+    border: 2px double orangered;border-radius: 10px;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    width: max-content;
+    padding: 10px;
+    font-size: 4rem;
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Updock', cursive;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    box-shadow: 4px 4px 10px 4px black;
+}
+.titulo-productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+.article {
+    display: inline-block;
+    margin: 25px;
+}
+.imagen-article {
+    height: 230px;
+    width: auto;
+}
+    .imagen-article:hover{
+
+        -moz-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+        
+        -webkit-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+        
+        -o-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+        
+        -ms-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+        
+        transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+        
+        transition: 500ms;
+        
+        cursor: pointer;
+}
+/*PAGINA UBICACION - UBICACION - UBICACION - UBICACION*/
+
+.iframe {
+    padding-left: 20px;
+}
+.divDonde {
+    border: 2px double orangered; border-radius: 20px;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    height: auto;
+    box-shadow: 4px 4px 10px 4px black;
+}
+.tituloDonde {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Updock', cursive;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parrafoDonde {
+    padding: 40px;
+    border-top: 2px double orangered;
+}
+
+
+/*CAMBIOS PARA VISTA MOVIL DE 0 A 480 PIXELES*/
+@media (max-width:480px){
+.container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 200px;
+    grid-template-areas: "header"
+    "main"
+    "footer";
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+.navbar ul li {
+    display: block;
+}
+.form-container {
+    display: block;
+    margin: 10px;
+}
+
+  
+}
