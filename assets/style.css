@@ -8,24 +8,32 @@
 }
 body {
     min-height: 100vh;
+    background-image: url(./imagenes/fondobody.png.jpg);
 }
 
 /*ESTILOS HEADER Y BARRA DE NAVEGACION*/
 .navbar {
-    background-color: rgba(255, 136, 0, 0.575);
+    background-color: rgb(0, 0, 0);
+    background-size: contain;
 }
 .navbar a {
     font-size: 20px;
     border: 1px solid black;
-    border-radius: 15px;
-    margin: 15px;
-    background-color: wheat;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: orangered;
+    color: white;
 }
 .navbar a:hover {
-    background-color: rgba(22, 22, 22, 0.877);
-    transition: 2s;
-    box-shadow: 4px 4px 10px 4px rgb(255, 255, 255);
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    background-size: contain;
 
+    transform: scale(1.1);
+    transition: 250ms;
+
+}
+.navbar-toggler {
+    background-color: orangered;
 }
 
 /*ESTILOS BANNER GRIS CON TITULO*/
@@ -43,8 +51,8 @@ body {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Ms Madi', cursive;
     font-family: 'Updock', cursive;
-    border-top: 3px  inset orange;
-    border-bottom: 3px  inset orange;
+    border-top: 3px  inset orangered;
+    border-bottom: 3px  inset orangered;
     padding-left: 30px;
     
 }
@@ -58,7 +66,7 @@ main {
     display: inline-block;
     height: auto;
     width: 200px;
-    background-color: rgba(255, 136, 0, 0.575);
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
     background-size: cover;
     margin: 30px 30px 0% 50px;
     box-shadow: 4px 4px 10px 4px black;
@@ -69,7 +77,6 @@ main {
     -o-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    background-color:rgb(230, 224, 176) ;
     transition: 2s;
 }
 .div-main h3 {
@@ -78,13 +85,13 @@ main {
     font-family: 'Bebas Neue', cursive;
     font-family: 'Ms Madi', cursive;
     font-family: 'Updock', cursive;
-    border-bottom: 2px double orange;
+    border-bottom: 2px double orangered;
 }
 .div-main p {
     padding: 20px;
     font-size: 1,5rem;
     border: 0,1px solid black;
-    background-color: gray;
+    background-color: rgb(66, 66, 66);
     color: white;
 }
 /*ESTILOS DEL FOOTER*/
@@ -92,26 +99,26 @@ footer {
     grid-area: footer;
     width: 100%;
     height: max-content;
-    background-image: url(./imagenes/backgroundfooter.png);
-    background-size: cover;
+    background-color: black;
+    background-size: contain;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .footer-h3 {
-    margin-top: 15px;
     padding: 15px;
     font-size: 3rem;
-    background-color: rgba(0, 0, 0, 0.671);
-    border-bottom: 2px double gray;
-    box-shadow: 4px 4px 10px 4px black; border-radius: 50px;
     color: white;
+    border: 1px solid black;border-radius: 10px;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    background-size: contain;
 }
 footer h4 {
-    padding: 10px;
-    border-bottom: 2px double rgb(245, 186, 77);
-    margin: 20px;
+    font-size: 1rem;
+    color: white;
+    border-bottom: 2px double orangered;
+    margin: 10px;
 }
 /*ESTILO DE REDES SOCIALES Y POSICIONAMIENTO DE ICONOS*/
 .redes {
@@ -120,12 +127,14 @@ footer h4 {
 
 }
 .titulo-insta { margin: 30px auto 30px auto;
-    border: 2px double orange;
-    background-color: rgb(245, 186, 77);
+    border: 2px double orangered;
+    background-color: orangered;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Ms Madi', cursive;
     font-family: 'Updock', cursive;
     font-size: 30px;
+    font-weight: 800;
+    color: black;
     padding: 5px auto 5px auto;
    text-align: center;
 
@@ -156,13 +165,13 @@ footer h4 {
 }
 .fb {
     display: inline-flex;
-    border: 2px solid rgb(76, 76, 206); border-radius: 10px;
-    background-color: rgba(54, 54, 121, 0.74);
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    border: 2px solid orangered; border-radius: 10px;
 }
 .insta {
     display: inline-flex;
-    border: 2px solid rgb(134, 61, 134); border-radius: 10px;
-    background-color: rgba(49, 36, 49, 0.705);
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
+    border: 2px solid orangered; border-radius: 10px;
 }
 .instayfb {
     display: flex;
@@ -173,7 +182,7 @@ footer h4 {
 /*PAGINA NOSOTROS - PAGINA NOSOTROS - PAGINA NOSOTROS*/
 .Articulo {
     display: flex;
-    border: 1px double orange;
+    border: 1px double orangered;
     height: auto;
     width: auto;
     margin: 30px;
@@ -188,8 +197,8 @@ footer h4 {
     transition: 2s;
 }
 .tituloArticulo {
-    border: 1px double orange;
-    background-color: rgba(255, 136, 0, 0.575);
+    border: 1px double orangered;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
     padding: 30px;
     font-size: 4rem;
     font-family: 'Bebas Neue', cursive;
@@ -201,13 +210,13 @@ footer h4 {
 }
 .parrafoArticulo {
     padding: 30px;
-    background-color: gray;
+    background-color: rgb(95, 95, 95);
     font-size: 20px;
     color: white;
 }
 /*PAGINA CONTACTANOS - PAGINA CONTACTANOS - PAGINA CONTACTANOS*/
 .contactanos {
-    border: 2px double orange;border-radius: 20px;
+    border: 2px double rgb(0, 0, 0);border-radius: 20px;
     background-color: rgba(22, 22, 22, 0.877);
     width: max-content;
     padding: 10px;
@@ -220,8 +229,8 @@ footer h4 {
 
 }
 .formulario {
-    border: 2px double orange; border-radius: 20px;
-    background-color: rgba(255, 136, 0, 0.575);
+    border: 2px double orangered; border-radius: 20px;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
     width: max-content;
     height: auto;
     padding: 30px;
@@ -229,13 +238,12 @@ footer h4 {
 }
 .formulario label {
     color: white;
-    border: 2px solid orange; border-radius: 20px;
+    border: 2px solid orangered; border-radius: 20px;
     background-color: rgba(22, 22, 22, 0.877);
     padding: 5px;
     font-size: 20px;
 }
 .form-input {
-    border-radius: 20px;
     background-color: burlywood;
     padding: 5px;
     margin: 1px;
@@ -265,13 +273,12 @@ footer h4 {
 
 }
 .btn:hover {
-    box-shadow: 5px 5px 5px 5px orange;
-    border-bottom: 5px solid white;
+    box-shadow: 1px 1px 5px 1px orangered;
 }
 /*PAGINA PRODUCTOS - PRODUCTOS - PRODUCTOS - PRODUCTOS - PRODUCTOS*/
 .titulo-productos {
-    border: 2px double orange;border-radius: 20px;
-    background-color: rgba(255, 136, 0, 0.575);
+    border: 2px double orangered;border-radius: 10px;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
     width: max-content;
     padding: 10px;
     font-size: 4rem;
@@ -297,26 +304,30 @@ footer h4 {
     height: 230px;
     width: auto;
 }
-.imagen-article:hover{
-    -moz-transform: scale(1.4) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
-    -webkit-transform: scale(1.4) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
-    -o-transform: scale(1.4) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
-    -ms-transform: scale(1.4) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
-    transform: scale(1.4) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
-    transition: 2s;
+    .imagen-article:hover{
+
+        -moz-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+        
+        -webkit-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+        
+        -o-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+        
+        -ms-transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+        
+        transform: scale(1.1) rotate(16deg) translate(-1px, -11px) skew(6deg, -2deg);
+        
+        transition: 500ms;
+        
+        cursor: pointer;
 }
 /*PAGINA UBICACION - UBICACION - UBICACION - UBICACION*/
-.contenedorDonde {
-    margin: 40px;
-    
-}
+
 .iframe {
     padding-left: 20px;
 }
 .divDonde {
-    border: 2px double orange; border-radius: 20px;
-    background-color: rgba(255, 136, 0, 0.575);
-    width: max-content;
+    border: 2px double orangered; border-radius: 20px;
+    background-image: url(./imagenes/fondo-naranja-textura-marmol-liquido-fondo-marmol_47435-407.jpg);
     height: auto;
     box-shadow: 4px 4px 10px 4px black;
 }
@@ -332,7 +343,7 @@ footer h4 {
 }
 .parrafoDonde {
     padding: 40px;
-    border-top: 2px double orange;
+    border-top: 2px double orangered;
 }
 
 
